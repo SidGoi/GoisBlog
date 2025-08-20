@@ -1,5 +1,6 @@
 import { Poppins as PoppinsFont } from "next/font/google";
 import "./globals.css";
+import Footer from "@/Components/Footer/Footer";
 
 const poppins = PoppinsFont({
   subsets: ["latin"],
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${poppins.className} antialiased`}>{children}</body>
+      <Footer />
     </html>
   );
 }
