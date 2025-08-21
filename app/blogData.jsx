@@ -1,17 +1,19 @@
 export const blogData = [
   {
     id: 1,
-    image: "/Assets/ai-future.jpg",
-    category: "Technology",
-    title: "How AI is Revolutionizing Everyday Life",
+    image: "/Assets/react-ultimate.jpg",
+    category: "Education",
+    title:
+      "Want to be the Ultimate ReactJS Developer? Here’s What You Should Do!",
     description:
-      "From smart assistants to healthcare innovations, AI is transforming the way we live and work.",
+      "A complete roadmap, skills, and resources you need to become a professional ReactJS developer.",
     content:
-      "Artificial Intelligence (AI) is no longer a concept confined to science fiction; it is an integral part of our daily lives, often operating in the background to simplify complex tasks. Smart assistants like Siri and Alexa are the most visible examples, helping us with everything from setting alarms to controlling our home's lighting. However, the true revolution lies in its less obvious applications. In our homes, AI-powered thermostats learn our habits to optimize energy consumption, while personalized streaming services use algorithms to suggest content we're likely to enjoy, creating a more tailored entertainment experience. \n\nBeyond consumer-facing technology, AI is making significant strides in critical sectors like healthcare. Machine learning algorithms are now capable of analyzing medical images, such as X-rays and MRIs, with a speed and accuracy that can assist doctors in early diagnosis of diseases like cancer. This not only improves patient outcomes but also frees up medical professionals to focus on treatment and patient care. AI is also being used to analyze vast datasets to identify patterns in disease outbreaks, allowing for more proactive public health responses. \n\nIn the professional world, AI is streamlining business operations and boosting productivity. Companies are using AI to automate repetitive tasks, from data entry to customer service, allowing employees to focus on more strategic, creative work. The rise of generative AI tools has also revolutionized content creation, graphic design, and software development, enabling rapid prototyping and innovation. While the ethical implications of AI are a subject of ongoing debate, its ability to enhance efficiency, improve accuracy, and unlock new possibilities across every industry is undeniable.",
-    link: "/blogs/ai-future",
-    date: "August 20, 2025",
+      "ReactJS is one of the most in-demand skills in 2025, and mastering it can open doors to countless opportunities in web development. But becoming the *ultimate React developer* isn’t just about learning syntax—it’s about building real projects, mastering the ecosystem, and staying updated with the latest features.\n\nHere’s a roadmap you should follow:\n\n1. **Master the Fundamentals**: Start with JavaScript ES6+ (variables, functions, promises, async/await, classes).\n2. **Core React**: Learn components, props, state, and lifecycle methods.\n3. **Advanced Concepts**: Hooks (`useState`, `useEffect`, `useContext`, custom hooks), Context API, and performance optimization.\n4. **Ecosystem Tools**: Explore React Router, Redux/ Zustand/ Recoil, Tailwind CSS, and component libraries like shadcn/ui.\n5. **Next.js Framework**: Learn SSR, ISR, API routes, authentication, and deployment.\n6. **Testing & Debugging**: Practice with Jest, React Testing Library, and Chrome DevTools.\n7. **Projects & Portfolio**: Build real-world apps (e-commerce, chat apps, dashboards) and host them on Vercel or Netlify.\n\nAnd of course—keep learning by following tutorials, documentation, and practicing daily! 🚀\n\n👉 I share step-by-step tutorials, tips, and complete project guides on my **YouTube Channel**. If you’re serious about becoming the ultimate ReactJS Developer, make sure to check it out!\n\n🔗 [Visit My YouTube Channel](https://www.youtube.com/@IAmSidGoi)",
+    link: "/blogs/react-ultimate-developer",
+    date: "August 22, 2025",
     author: "Siddharaj Gohil",
   },
+
   {
     id: 2,
     image: "/Assets/healthy-lifestyle.jpg",
@@ -131,16 +133,15 @@ export const blogData = [
   },
   {
     id: 11,
-    image: "/Assets/react-ultimate.jpg",
-    category: "Education",
-    title:
-      "Want to be the Ultimate ReactJS Developer? Here’s What You Should Do!",
+    image: "/Assets/ai-future.jpg",
+    category: "Technology",
+    title: "How AI is Revolutionizing Everyday Life",
     description:
-      "A complete roadmap, skills, and resources you need to become a professional ReactJS developer.",
+      "From smart assistants to healthcare innovations, AI is transforming the way we live and work.",
     content:
-      "ReactJS is one of the most in-demand skills in 2025, and mastering it can open doors to countless opportunities in web development. But becoming the *ultimate React developer* isn’t just about learning syntax—it’s about building real projects, mastering the ecosystem, and staying updated with the latest features.\n\nHere’s a roadmap you should follow:\n\n1. **Master the Fundamentals**: Start with JavaScript ES6+ (variables, functions, promises, async/await, classes).\n2. **Core React**: Learn components, props, state, and lifecycle methods.\n3. **Advanced Concepts**: Hooks (`useState`, `useEffect`, `useContext`, custom hooks), Context API, and performance optimization.\n4. **Ecosystem Tools**: Explore React Router, Redux/ Zustand/ Recoil, Tailwind CSS, and component libraries like shadcn/ui.\n5. **Next.js Framework**: Learn SSR, ISR, API routes, authentication, and deployment.\n6. **Testing & Debugging**: Practice with Jest, React Testing Library, and Chrome DevTools.\n7. **Projects & Portfolio**: Build real-world apps (e-commerce, chat apps, dashboards) and host them on Vercel or Netlify.\n\nAnd of course—keep learning by following tutorials, documentation, and practicing daily! 🚀\n\n👉 I share step-by-step tutorials, tips, and complete project guides on my **YouTube Channel**. If you’re serious about becoming the ultimate ReactJS Developer, make sure to check it out!\n\n🔗 [Visit My YouTube Channel](https://www.youtube.com/@IAmSidGoi)",
-    link: "/blogs/react-ultimate-developer",
-    date: "August 22, 2025",
+      "Artificial Intelligence (AI) is no longer a concept confined to science fiction; it is an integral part of our daily lives, often operating in the background to simplify complex tasks. Smart assistants like Siri and Alexa are the most visible examples, helping us with everything from setting alarms to controlling our home's lighting. However, the true revolution lies in its less obvious applications. In our homes, AI-powered thermostats learn our habits to optimize energy consumption, while personalized streaming services use algorithms to suggest content we're likely to enjoy, creating a more tailored entertainment experience. \n\nBeyond consumer-facing technology, AI is making significant strides in critical sectors like healthcare. Machine learning algorithms are now capable of analyzing medical images, such as X-rays and MRIs, with a speed and accuracy that can assist doctors in early diagnosis of diseases like cancer. This not only improves patient outcomes but also frees up medical professionals to focus on treatment and patient care. AI is also being used to analyze vast datasets to identify patterns in disease outbreaks, allowing for more proactive public health responses. \n\nIn the professional world, AI is streamlining business operations and boosting productivity. Companies are using AI to automate repetitive tasks, from data entry to customer service, allowing employees to focus on more strategic, creative work. The rise of generative AI tools has also revolutionized content creation, graphic design, and software development, enabling rapid prototyping and innovation. While the ethical implications of AI are a subject of ongoing debate, its ability to enhance efficiency, improve accuracy, and unlock new possibilities across every industry is undeniable.",
+    link: "/blogs/ai-future",
+    date: "August 20, 2025",
     author: "Siddharaj Gohil",
   },
 ];
