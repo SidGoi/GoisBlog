@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center text-gray-500 text-sm mt-6 border-t border-gray-700 pt-4">
+      <div className="text-center text-white text-sm mt-6 border-t border-white pt-4">
         © {new Date().getFullYear()} Gois Blog. All rights reserved.
       </div>
     </footer>
