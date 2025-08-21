@@ -17,8 +17,8 @@ const BlogList = () => {
     gsap.from(BlogRef.current, {
       y: 20,
       opacity: 0,
-      duration: 1,
-      delay: 1.2,
+      duration: 0.5,
+      delay: 0.6,
     });
   }, []);
 

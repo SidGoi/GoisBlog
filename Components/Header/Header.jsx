@@ -21,7 +21,7 @@ const Header = () => {
       opacity: 0,
       duration: 1,
       ease: "power2.out",
-      stagger: 0.3,
+      stagger: 0.1,
       delay: 0.3,
     });
   }, []);

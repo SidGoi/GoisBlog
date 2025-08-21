@@ -1,6 +1,7 @@
+import gsap from "gsap";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 const BlogItem = ({
   image,
@@ -12,8 +13,12 @@ const BlogItem = ({
   author,
   id,
 }) => {
+
+
   return (
-    <div className="border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow duration-300 rounded-xl overflow-hidden cursor-pointer flex flex-col">
+    <div
+      className="border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow duration-300 rounded-xl overflow-hidden cursor-pointer flex flex-col"
+    >
       <Link href={`/blogs/${id}`}>
         {/* Blog Image */}
         <Image

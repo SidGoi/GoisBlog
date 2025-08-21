@@ -1,9 +1,10 @@
 "use client";
 
 import blogData from "@/app/blogData";
+import gsap from "gsap";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const Page = ({ params }) => {
   const { id } = params;
@@ -19,8 +20,18 @@ const Page = ({ params }) => {
     setLoading(false);
   }, [id]);
 
+  const blogPage = useRef(null);
+
+  useEffect(() => {
+    gsap.from(blogPage.current, {
+      y: 10,
+      opacity: 0,
+      duration: 0.3,
+    });
+  }, []);
+
   return (
-    <div className="py-6 px-4 sm:px-8 lg:px-20">
+    <div ref={blogPage} className="py-6 px-4 sm:px-8 lg:px-20">
       {/* NAV */}
       <div className="flex justify-between items-center border-b border-gray-300 pb-5">
         <Link href="/">
